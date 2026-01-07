@@ -7,7 +7,7 @@ import { ShimmerSkeleton } from "@/components/Skeleton";
 import { fetchGameAction } from "./actions";
 import { SteamGameDetails } from "@/lib/steam";
 import { motion, AnimatePresence } from "framer-motion";
-import { Zap, Shield, Layout, Sparkles, Globe, Cpu } from "lucide-react";
+import { Shield } from "lucide-react";
 import { cn } from "@/lib/utils";
 import LightRays from "@/components/LightRays";
 import GatingCaptcha from "@/components/GatingCaptcha";
@@ -138,74 +138,6 @@ export default function Page() {
             </AnimatePresence>
           </section>
 
-          {/* SEO Optimized Section */}
-          <section id="features" className="container max-w-6xl px-4 py-24 border-t border-white/5 mt-10">
-            <div className="text-center mb-16">
-              <h2 className="text-3xl md:text-5xl font-black text-white mb-6">Expert Steam <span className="text-shimmer-purple">Manifesting</span> Solutions</h2>
-              <p className="text-white/40 max-w-2xl mx-auto">Access the most reliable infrastructure for depot data and lua script downloads on the web.</p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-left">
-              <div className="glass-morphism p-8 rounded-[2rem] space-y-4">
-                <h3 className="text-xl font-bold text-white flex items-center gap-3">
-                  <div className="h-2 w-2 rounded-full bg-primary shadow-[0_0_10px_rgba(147,51,234,0.5)]" />
-                  Steam Manifestor
-                </h3>
-                <p className="text-white/40 leading-relaxed text-sm">
-                  Whether you need to download Steam manifests for legacy game versions or technical depot mapping, ManifestKotakLegend is the industry standard manifestor node.
-                </p>
-              </div>
-
-              <div className="glass-morphism p-8 rounded-[2rem] space-y-4">
-                <h3 className="text-xl font-bold text-white flex items-center gap-3">
-                  <div className="h-2 w-2 rounded-full bg-primary shadow-[0_0_10px_rgba(147,51,234,0.5)]" />
-                  Lua Downloader
-                </h3>
-                <p className="text-white/40 leading-relaxed text-sm">
-                  Our integrated Lua downloader parses manifest data to extract essential game scripts instantly. Perfect for modding, archiving, and analysis.
-                </p>
-              </div>
-
-              <div className="glass-morphism p-8 rounded-[2rem] space-y-4">
-                <h3 className="text-xl font-bold text-white flex items-center gap-3">
-                  <div className="h-2 w-2 rounded-full bg-primary shadow-[0_0_10px_rgba(147,51,234,0.5)]" />
-                  Depot Key Stream
-                </h3>
-                <p className="text-white/40 leading-relaxed text-sm">
-                  Synchronize with high-speed manifestor nodes to retrieve depot keys and encrypted manifest versions with the KotakLegend security engine.
-                </p>
-              </div>
-            </div>
-
-            <div className="mt-20 p-12 rounded-[3rem] bg-gradient-to-b from-white/[0.03] to-transparent border border-white/5 text-center">
-              <h3 className="text-2xl md:text-4xl font-black text-white mb-6">Built for Reliability. Powered by KotakLegend.</h3>
-              <p className="max-w-4xl mx-auto text-lg text-white/50 leading-relaxed mb-8">
-                ManifestKotakLegend serves as the ultimate <strong>steam manifest downloader</strong> for the global community.
-                By combining a sophisticated <strong>lua downloader</strong> engine with ultra-fast <strong>manifestor</strong> capabilities,
-                we ensure that every search for "steam manifest" or "manifest downloader" leads to successful data retrieval.
-              </p>
-              <div className="flex flex-wrap justify-center gap-4 text-[10px] font-black uppercase tracking-widest text-primary/60">
-                <span>Fast Manifestor</span>
-                <span>•</span>
-                <span>Secure Lua Downloader</span>
-                <span>•</span>
-                <span>Depot Tracking</span>
-                <span>•</span>
-                <span>Steam Archive</span>
-              </div>
-            </div>
-
-            <div className="sr-only">
-              <h3>Comprehensive Manifest Downloader Capabilities</h3>
-              <ul>
-                <li>High-speed Steam manifest downloader nodes</li>
-                <li>Exclusive Lua script downloader access</li>
-                <li>Global manifestor registry for Steam depots</li>
-                <li>Instant depot key manifestor bridge</li>
-                <li>Technical game analysis manifest downloader</li>
-              </ul>
-            </div>
-          </section>
         </>
       )}
     </div>
