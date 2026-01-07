@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/download
+
+Sitemap: https://manifest.kotaklegend.my.id/sitemap.xml
